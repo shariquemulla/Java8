@@ -1,0 +1,57 @@
+Java 8 : 
+	Concise Code
+	Functional Programming
+
+Features of Java 8:
+	1. Lambda Expressions
+	2. Functional Interface
+	3. Default and Static Methods
+	4. Predefined Functional Interfaces
+		Predicate
+		Function
+		Consumer
+		Supplier
+		and many more....
+	5. Double Colon Operator (::)
+		Method Reference
+		Constructor Reference
+	6. Streams
+	7. Date and Time API
+	8. Optional Class
+	9. Nashron JavaScript Engine
+		and many more....
+	
+Predefined Functional Interfaces :
+	Single-argument predefined FI :
+	1. Predicate
+	2. Function
+	3. Consumer
+	4. Supplier
+	5. UnaryOperator		-	when input and return type is same
+	
+	Two-argument predefined FI :
+	5. BiPredicate
+	6. BiFunction
+		ToIntBiFunction / ToLongBiFunction / ToDoubleBiFunction - Primitive return types
+	7. BiConsumer
+	8. BinaryOperator		-	when input and return type is same
+	
+	Primitive FI :
+	8. IntPredicate 	/ LongPredicate 	/ DoublePredicate 	- Primitive inputs
+	
+	9. IntFunction		/ LongFunction 		/ DoubleFunction 	- Primitive inputs
+	10. ToIntFunction 	/ ToLongFunction 	/ ToDoubleFunction 	- Primitive return types
+	11. DoubleToIntFunction / DoubleToLongFunction... 			- Primitive input and return type
+	
+	12. IntConsumer 	/ LongConsumer 		/ DoubleConsumer	- Primitive inputs
+	13. ObjIntConsumer 	/ ObjLongConsumer 	/ ObjDoubleConsumer	- 1 Object and 1 Primitive inputs
+	14. BooleanSupplier / IntSupplier 		/ LongSupplier 
+											/ DoubleSupplier	- Primitive return types
+											
+	15. IntUnaryOperator		-	when input and return type is int
+	16. LongUnaryOperator		-	when input and return type is long
+	17. DoubleUnaryOperator		-	when input and return type is double
+	
+	15. IntBinaryOperator		-	when input and return type is int
+	16. LongBinaryOperator		-	when input and return type is long
+	17. DoubleBinaryOperator	-	when input and return type is double
